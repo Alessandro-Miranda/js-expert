@@ -1,0 +1,21 @@
+{
+  "name": "pre-semana-js-expert",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-json-modules src/",
+    "test": "cross-env NODE_OPTIONS=--experimental-vm-modules npx jest --config jest.config.mjs",
+    "test:cov": "cross-env NODE_OPTIONS=--experimental-vm-modules npx jest --config jest.config.mjs --coverage",
+    "test:watch": "cross-env NODE_OPTIONS=--experimental-vm-modules npx jest --config jest.config.mjs --watchAll"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "_id": "pre-semana-js-expert@1.0.0",
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "jest": "^26.6.3"
+  }
+}
