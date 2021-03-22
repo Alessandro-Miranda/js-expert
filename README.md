@@ -1,2 +1,2 @@
 # js-expert
-projetos feitos na live de aquecimento e durante a semana js expert
+Códigos de exemplo e explicações feitas nas lives de aquecimento da semana js-expert 3
